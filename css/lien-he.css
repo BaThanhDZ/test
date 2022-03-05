@@ -1,0 +1,130 @@
+/* BEGIN s-home-16 */
+.s-home-16 {
+    padding: 50px 0;
+}
+.s-home-16 .s_form {
+    padding: 55px;
+    box-shadow: 0px 8px 24px rgb(0 0 0 / 10%);
+}
+.s-home-16 .s_contact > h2 {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-left: 5px solid #ff7800;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.s-home-16 .s_contact h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff7800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.s-home-16 .s_contact li {
+    padding: 5px 0 5px;
+}
+.s-home-16 .s_contact li.line{
+    display: flex;
+    align-items: center;
+}
+.s-home-16 .s_contact li span{
+  margin-right: 10px;
+}
+.s-home-16 .s_contact li i {
+    color: #ff7800;
+}
+.s-home-16 .s_contact a {
+    color: #666;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+.s-home-16 .s_contact a:hover {
+    color: #f60;
+}
+.s-home-16 .s_social {
+    margin: 10px 0 20px;
+}
+.s-home-16 .c-form-border {
+    border-radius: 30px;
+    background-color: #fff;
+}
+.s-home-16 .c-checkbox>label:hover {
+    color: #f60;
+}
+.s-home-16 .c-checkbox .c_tick .check {
+    border: 1px solid #fff;
+}
+.s-home-16 .s_list {
+    margin-top: 30px;
+}
+.s-home-16 .c-select {
+    margin-bottom: 15px;
+}
+.s-home-16 .s_customer {
+    margin-top: 45px;
+}
+.s-home-16 .s_customer .s_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.s-home-16 .s_box {
+    padding-left: 32px;
+}
+.b-card-47 {
+    padding: 10px;
+    box-shadow: none;
+}
+/* END s-home-16 */
+.b-card-19 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.b-card-19 .b_content {
+    width: 35%;
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+}
+.b-card-19 .b_content span {
+    display: block;
+    text-align: center;
+}
+.b-card-19 .b_content span:first-child {
+    font-weight: 500;
+    font-size: 20px;
+}
+.b-card-19 .b_content span:last-child {
+    font-weight: 300;
+    font-size: 13px;
+}
+.b-card-19 .b_desc {
+    width: 65%;
+    font-weight: 300;
+    margin-left: 30px;
+    font-size: 14px;
+}
+@media screen and (max-width: 991px) {
+    .s-home-16 .container > .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .s-home-16 .s_box{
+        padding-left: 0;
+    }
+
+}
+@media screen and (max-width: 575px) {
+    .s-home-16 .s_form{
+        padding: 20px;
+    }
+    .s-home-16 .s_contact li.line{
+        display: block;
+    }
+    .s-home-16 .s_contact li.line span{
+        display: block;
+    }
+}

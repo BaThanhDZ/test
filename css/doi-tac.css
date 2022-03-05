@@ -1,0 +1,197 @@
+.s-home-8 {
+    margin-bottom: 0;
+}
+.s-register-1 {
+    margin: 50px 0;
+}
+.s-register-1 .s_top {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.s-register-1 .s_top .title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+.s-register-1 .s_top .desc {
+    font-weight: 300;
+    font-size: 14px;
+    width: 800px;
+    margin: 0 auto;
+}
+.s-register-1 .s_box {
+    background-color: #fff;
+    text-align: center;
+    border-top: 16px solid #ff7800;
+    box-shadow: 0 2px 4px 0 #cbd6e2;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.s-register-1 .s_box .title {
+    font-weight: 500;
+    /* color: #ff7800; */
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.s-register-1 .s_box .desc {
+    font-weight: 300;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.s-register-1 .s_customer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.s-register-1 .s_customer .s_title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.b-card-10 .b_comment {
+    transform: translateY(-48px);
+}
+.b-card-10 .b_avatar{
+    padding: 0 25px 0 0;
+}
+.b-card-10 .b_avatar>span {
+    border-radius: 10px;
+    margin: 0 0px 0 0;
+}
+/* BEGIN c-button-8 */
+.c-button-8 {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0.5em 1.072em 0.5em 1.072em;
+    overflow: hidden;
+    color: #fff;
+    background-color: #ff7800;
+    border-radius: 20px;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+}
+.c-button-8>i.fa {
+    padding-left: 5px;
+}
+.c-button-8::after {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -140%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -140%, 0);
+    -webkit-transition: transform 0.35s;
+    -o-transition: transform 0.35s;
+    transition: transform 0.35s;
+}
+.c-button-8:hover {
+    box-shadow: 0 14px 26px -12px rgba(34, 34, 34, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(34, 34, 34, 0.2);
+}
+.c-button-8:hover::after {
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 140%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 140%, 0);
+}
+
+/* END c-button-8 */
+.s-why-2 {
+    margin: 40px 0;
+    background: #fafafa;
+    padding: 40px 0 5px;
+}
+.s-why-2 .s_desc {
+    background-color: #f5f5f5;
+}
+.s-pre-1{
+    display: none;
+}
+.s-pre-2{
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+.s-pre-2 .s_box{
+    padding: 0 100px;
+}
+.s-pre-2 .s_title{
+    margin-bottom: 10px;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+.s-pre-2 .s_button .c-button-9{
+    display: block;
+    margin-bottom: 15px;
+}
+.s-pre-2 .s_button .c-button-9:first-child{
+    background-color: #ff7800;
+    color: #fff;
+}
+.s-pre-2 .s_note span{
+    /* display: block; */
+    margin-top: 30px;
+    font-weight: 300;
+}
+.s-pre-2 .s_note a{
+    color: #ff7800;
+    font-weight: 500;
+    font-size: 17px;
+}
+.s-pre-2 .s_note{
+    margin-top: 40px;
+}
+.s-pre-2 .s_note a:hover{
+    color:  #ff7800;
+}
+.s-pre-2 .s_content{
+    padding-right: 30px;
+}
+.s-pre-2 .row{
+    display: flex;
+    align-items: center;
+}
+/* BEGIN c-button-9 */
+.c-button-9 {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.643em 1.429em 0.643em 1.429em;
+  border-radius: 0;
+  /* border: 1px solid #919191; */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.c-button-9:hover {
+  background-color: #ff7800;
+  color: #fff;
+}
+
+/* END c-button-9 */
+@media (max-width: 991px) {
+    .s-register-1 .s_top .desc{
+        width: 100%;
+    }
+    .b-card-10 .b_comment{
+        transform: unset;
+    }
+    .s-pre-2 .s_box{
+        padding: 0;
+    }
+    .s-pre-2 .s_content{
+        padding-right: 0;
+    }
+}
+@media (max-width: 479px) {
+    .b-card-47{
+        padding: 10px;
+    }
+}
